@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+.logo{
+    
+position: absolute;
+width: 213px;
+height: 48px;
+left: 39px;
+top: 45.91px;
+font-family: 'Sora';
+font-style: normal;
+font-weight:bolder;
+font-size: 60px;
+line-height: 48px;
+/* identical to box height */
+text-align: center;
+}
+.logo img{
+    width: 30px;
+    height: 30px;
+}
