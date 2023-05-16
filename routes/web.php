@@ -16,6 +16,21 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('view');
 });
-/* Route::get('/', function(){
-    return  view('');
-}); */
+Route::get('/product', function () {
+    return view('product');
+});
+Route::get('/footer', function () {
+    return view('footer');
+});
+Route::get('/settings', function () {
+    return view('settings');
+});
+Route::get('/profile', function () {
+    return view('profile');
+});
+Route::get('/privacy', function () {
+    return view('privacy');
+});
+Route::get('/abdul', function () {
+    return view('abdul');
+});
